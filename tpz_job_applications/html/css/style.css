@@ -1,0 +1,489 @@
+
+@font-face {
+  font-family: Signature;
+  src: url(../fonts/Thesignature.ttf);
+}
+
+@font-face {
+  font-family: HandWritten;
+  src: url(../fonts/Handwritten.woff) format('truetype');
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+
+  text-align: center;
+	justify-content: center;
+	align-items: center;
+
+  margin-top: 10%;
+
+}
+
+
+#applications{
+  display: inline-block;
+
+  margin-right: auto;
+  text-align: left;
+
+  background-image: url(../img/background_form.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position-x: center;
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+
+  overflow: hidden;
+  width: 30vw;
+  height:40vw;
+
+  justify-content: center;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+}
+
+#title {
+  position: absolute;
+  display: inline-block;
+  
+  font-family: "Handwritten", Handwritten, serif;
+
+	font-size: 1.7vw;
+	height: fit-content;
+
+  width: 30vw;
+
+	margin-top: 1.65vw;
+
+	text-align: center;
+
+	color: rgba(34, 34, 34, 0.74);
+
+}
+
+#description {
+  position: absolute;
+  display: inline-block;
+  
+  
+  font-family: "Handwritten", Handwritten, serif;
+  color: #002b59;
+
+	font-size: 0.78vw;
+	height: fit-content;
+
+  width: 23vw;
+
+	margin-top: 30.65vw;
+  margin-left: 3.6vw;
+
+	text-align: left;
+
+
+}
+
+#author-date {
+  position: absolute;
+  display: inline-block;
+  
+  font-family: "Handwritten", Handwritten, serif;
+  color: #002b59;
+
+	font-size: 1vw;
+	height: fit-content;
+
+  width: 23vw;
+
+	margin-top: 34.65vw;
+  margin-left: 6.6vw;
+
+	text-align: left;
+
+
+}
+
+#author-signature {
+  position: absolute;
+  display: inline-block;
+  
+  font-family: "Signature", Signature, serif;
+  color: #0e253b;
+
+	font-size: 1.3vw;
+	height: fit-content;
+
+  width: 23vw;
+
+	margin-top: 35.65vw;
+  margin-left: 6.6vw;
+
+	text-align: left;
+
+}
+
+
+/* Create / Submit Job Application */
+
+#create-job-applications-list {
+
+  position: absolute;
+	display: flex;
+
+  overflow: hidden;
+	overflow-x: auto;
+	overflow-y: hidden;
+
+  width: 22vw;
+  height: 1.8vw;
+
+  padding-left: 0.7vw;
+  padding-right: 0.5vw;
+  padding-top: 0.5vw;
+
+  margin-top: 6vw;
+  margin-left: 3.5vw;
+} 
+
+#create-job-applications-list-name{
+  position: relative;
+  display: inline-block;
+  
+  font-family: "Handwritten", Handwritten, serif;
+
+  font-size: 1.3vw;
+
+	color: rgba(34, 34, 34, 0.74);
+
+  height: fit-content;
+  width: fit-content;
+
+  text-align: left;
+}
+
+#create-job-applications-list-name:hover {
+  opacity: 0.7;
+}
+
+
+#create-job-application-message {
+  position: absolute;
+  display: inline-block;
+
+  font-family: "Handwritten", Handwritten, serif;
+  color: #002b59;
+	font-size: 1.2vw;
+
+  text-align: left;
+  
+  width: 23vw;
+
+  height: 17vw;
+
+  padding-left: 0.7vw;
+  padding-right: 0.5vw;
+  padding-top: 0.5vw;
+
+  margin-top: 10vw;
+  margin-left: 3.5vw;
+
+  background-color: rgba(255, 250, 250, 0.0);
+
+	overflow-wrap: break-word;  
+  word-wrap: break-word; 
+  word-break: break-word;
+  resize: none;
+
+  border: none;
+  outline: none;
+
+  overflow: hidden;
+
+}
+
+#create-job-applications-submit {
+  position: absolute;
+  display: inline-block;
+  
+  font-family: "Handwritten", Handwritten, serif;
+	color: rgba(34, 34, 34, 0.74);
+
+	font-size: 1.4vw;
+	height: fit-content;
+
+  width: 22vw;
+
+	margin-top: 28vw;
+  margin-left: 3.6vw;
+
+  padding-right: 1vw;
+
+	text-align: right;
+
+}
+
+#create-job-applications-submit:hover {
+  opacity: 0.7;
+}
+
+
+/* Overview Personal Job Application */
+
+#overview-job-application{
+  position: absolute;
+  display: inline-block;
+  
+  font-size: 1.3vw;
+
+  font-family: "Handwritten", Handwritten, serif;
+  color: #002b59;
+
+  margin-top: 6.5vw;
+  margin-left: 3.5vw;
+
+  height: fit-content;
+  width: fit-content;
+
+  text-align: left;
+}
+
+
+#overview-job-application-message {
+  position: absolute;
+  display: inline-block;
+
+  font-family: "Handwritten", Handwritten, serif;
+  color: #002b59;
+	font-size: 1.2vw;
+
+  text-align: left;
+  
+  width: 23vw;
+
+  height: 17vw;
+
+  padding-left: 0.7vw;
+  padding-right: 0.5vw;
+  padding-top: 0.5vw;
+
+  margin-top: 10vw;
+  margin-left: 3.5vw;
+
+  background-color: rgba(255, 250, 250, 0.0);
+
+	overflow-wrap: break-word;  
+  word-wrap: break-word; 
+  word-break: break-word;
+  resize: none;
+
+  border: none;
+  outline: none;
+
+  overflow: hidden;
+
+}
+
+#overview-job-application-signature {
+  position: absolute;
+  display: inline-block;
+  
+  font-family: "Signature", Signature, serif;
+	color: rgba(34, 34, 34, 0.74);
+
+	font-size: 1.4vw;
+	height: fit-content;
+
+  width: 22vw;
+
+	margin-top: 28vw;
+  margin-left: 3.6vw;
+
+  padding-right: 1vw;
+
+	text-align: right;
+
+}
+
+
+#overview-job-application-receive{
+  position: absolute;
+  display: inline-block;
+  
+  font-size: 1.3vw;
+
+  font-family: "Handwritten", Handwritten, serif;
+	color: rgba(34, 34, 34, 0.74);
+
+  margin-top: 37.5vw;
+  margin-left: 2.5vw;
+
+  font-weight: bold;
+
+  height: fit-content;
+  width: fit-content;
+
+  text-align: left;
+
+}
+
+#overview-job-application-delete{
+  position: absolute;
+  display: inline-block;
+  
+  font-size: 1.3vw;
+
+  font-family: "Handwritten", Handwritten, serif;
+	color: rgba(34, 34, 34, 0.74);
+
+  font-weight: bold;
+
+  margin-top: 37.5vw;
+  margin-left: 2.5vw;
+
+  height: fit-content;
+  width: fit-content;
+
+  text-align: left;
+
+}
+
+#overview-job-application-receive:hover, #overview-job-application-delete:hover {
+  opacity: 0.7;
+}
+
+/* Management */
+
+#management-submitted-applications {
+  position: absolute;
+
+	overflow-y: scroll;
+
+  width: 22vw;
+  height: 23vw;
+
+  padding-left: 0.7vw;
+  padding-right: 0.5vw;
+  padding-top: 0.5vw;
+
+  margin-top: 6vw;
+  margin-left: 3.5vw;
+
+  background-color:rgba(250, 235, 215, 0.473);
+}
+
+#management-submitted-applications-name{
+  position: relative;
+  display: inline-block;
+
+  font-size: 1vw;
+
+  font-weight: bold;
+
+	color: rgba(34, 34, 34, 0.74);
+
+  font-family: "Handwritten", Handwritten, serif;
+
+  height: fit-content;
+  width: 21vw;
+
+  text-align: left;
+
+}
+
+#management-submitted-applications-button{
+  position: relative;
+  display: inline-block;
+
+  font-size: 1vw;
+
+  font-weight: bold;
+
+	color: rgba(34, 34, 34, 0.74);
+
+  font-family: "Handwritten", Handwritten, serif;
+
+  height: fit-content;
+  width: 6vw;
+
+  margin-top: 1vw;
+
+  text-align: center;
+
+  background-color: rgba(0, 0, 0, 0.185);
+  box-shadow: inset 0 0 2px 2px rgba(22, 22, 22, 0.616);
+}
+
+
+#overview-job-application-approve{
+  position: absolute;
+  display: inline-block;
+  
+  font-size: 1.3vw;
+
+  font-family: "Handwritten", Handwritten, serif;
+	color: rgba(34, 34, 34, 0.74);
+
+  margin-top: 37.2vw;
+  margin-left: 2.5vw;
+
+  font-weight: bold;
+
+  height: fit-content;
+  width: fit-content;
+
+  text-align: left;
+
+}
+
+#overview-job-application-reject{
+  position: absolute;
+  display: inline-block;
+  
+  font-size: 1.3vw;
+
+  font-family: "Handwritten", Handwritten, serif;
+	color: rgba(34, 34, 34, 0.74);
+
+  font-weight: bold;
+
+  margin-top: 37.2vw;
+  margin-left: 18vw;
+
+  height: fit-content;
+  width: fit-content;
+
+  text-align: right;
+
+}
+
+
+#management-submitted-applications-button:hover, #overview-job-application-approve:hover, #overview-job-application-reject:hover {
+  opacity: 0.7;
+}
+
+
+/* Utilities */
+
+::-webkit-scrollbar {
+	width: 0.5vw;
+	border-radius: 0.1vw;
+	height: 0.3vw;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgba(14, 14, 15, 0.849);
+	border-radius: 0.5vw;
+	height: 0.3vw;
+}
