@@ -13,6 +13,8 @@
 
 2. Add `ensure tpz_job_applications` after the **REQUIREMENTS** in the resources.cfg or server.cfg, depends where your scripts are located.
 
+# Development
+
 > Exports
 
 ```lua
